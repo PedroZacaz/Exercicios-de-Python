@@ -1,6 +1,6 @@
 # Exercícios de Python do Curso em Vídeo
 
-Este repositório contém a minha resolução dos exercícios propostos no curso de **Python 3** do [Curso em Vídeo](https://www.cursoemvideo.com/), ministrado pelo professor Gustavo Guanabara.
+Este repositório contém a minha resolução dos exercícios propostos no curso de **Python** do [Curso em Vídeo](https://www.cursoemvideo.com/), ministrado pelo professor Gustavo Guanabara.
 
 ## 🧠 Conteúdo abordado
 
