@@ -16,14 +16,12 @@ c = float(input(f'{cor['azul']}Digite o terceiro número:{cor['limpar']} '))
 #Saber se forma um triângulo
 if a + b > c and a + c > b and b + c > a:
     print(f'{cor['verde']}Essas retas forma um triângulo sim, pode confiar{cor['limpar']}')
+    # Tipo de triângulo
+    if a == b == c:
+        print(f'{cor['vermelho']}EQUILÁTERO:{cor['limpar']} todos os lados são iguais.')
+    elif a == b or b == c or a == c:
+        print(f'{cor['vermelho']}ISÓSCELES:{cor['limpar']} dois lados são iguais.')
+    else:
+        print(f'{cor['vermelho']}ESCALENO:{cor['limpar']} todos os lados são diferentes.')
 else:
     print(f'{cor['vermelho']}Não forma um triângulo, medidas incongruentes{cor['limpar']}')
-
-#Tipo de triângulo
-if a == b == c:
-    print(f'{cor['vermelho']}EQUILÁTERO:{cor['limpar']} todos os lados são iguais.')
-elif a == b or b == c or a == c:
-    print(f'{cor['vermelho']}ISÓSCELES:{cor['limpar']} dois lados são iguais.')
-else:
-    print(f'{cor['vermelho']}ESCALENO:{cor['limpar']} todos os lados são diferentes.')
-
