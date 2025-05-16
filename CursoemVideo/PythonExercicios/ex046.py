@@ -3,8 +3,8 @@ import  pygame
 import emoji
 
 print('--- CONTAGEM REGRESSIVA ---')
-for c in range(10, 0, -1):
-    sleep(1) #é só isso?
+for c in range(10, -1, -1):
+    sleep(0.5) #é só isso?
     print(c)
 
 #emoji de confete
