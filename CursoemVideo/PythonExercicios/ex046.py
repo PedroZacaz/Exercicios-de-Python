@@ -3,7 +3,7 @@ import  pygame
 import emoji
 
 print('--- CONTAGEM REGRESSIVA ---')
-for c in range(10, -1, -1):
+for c in range(10, 0, -1):
     sleep(1) #é só isso?
     print(c)
 
