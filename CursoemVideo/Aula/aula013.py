@@ -12,5 +12,5 @@ for c in range (0, 4):
     #Jeito python
     s += n
     #Jeito normal
-    #s = s + n Muito normal
+    #s = s + n ''Muito normal''
 print(f'O somatório de tudo é: {s}')
