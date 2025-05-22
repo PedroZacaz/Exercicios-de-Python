@@ -1,7 +1,4 @@
-n1 = input('Digite o número da Tabuada: ')
+n1 = int(input('Digite o número da Tabuada: '))
 
-mult = 0
-for c in range(1, 10):
-    mult = n1 * c
-print(mult)
-#não finalizado
+for c in range(1, 11):
+    print(f'{c} X {n1} = {c * n1}' )
