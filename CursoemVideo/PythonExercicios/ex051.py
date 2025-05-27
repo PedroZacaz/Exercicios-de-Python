@@ -1,3 +1,4 @@
+# Minha resolução
 '''pt = int(input('Primeiro Termo: '))
 rz = int(input('Razão: '))
 for c in range(1, 11):
